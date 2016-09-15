@@ -1,5 +1,16 @@
 {
     "plugins": [
-        "toc"
-    ]
+        "page-toc"
+    ],
+    "pluginsConfig": {
+        "etoc": {
+            "mindepth": 3,
+            "maxdepth": 4,
+            "notoc": false
+        },
+        "page-toc": {
+            "selector": ".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4",
+            "position": "before-first"
+        }
+    }
 }
